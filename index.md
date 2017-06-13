@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-06-05" 
+lastupdated: "2017-06-12" 
 
 ---
 
@@ -126,6 +126,11 @@ Visit the following pages for a cumulative list of the latest updates:
 * [Latest Updates to the Liberty buildpack](/docs/runtimes/liberty/updates.html#latest_updates)
 * [Latest Updates to the ASP.NET Core buildpack](/docs/runtimes/dotnet/updates.html#latest_updates)
 * [Latest updates to the IBM XPages for {{site.data.keyword.Bluemix_notm}} buildpack](/docs/starters/xpages/index.html#updates)
+
+### New Liberty for Java buildpack v3.10
+New as of: 12 June 2017
+
+The Liberty buildpack v3.10 provides new quarterly and monthly Liberty runtime versions and contains other improvements. The default Liberty runtime version was updated to 17.0.0.2. The monthly Liberty runtime version was updated to the  [2017.5.0.0](https://developer.ibm.com/wasdev/blog/2017/05/12/beta-websphere-liberty-tools-may-2017/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") release. The buildpack also provides updated versions of the App Management utility and Extreme Scale Client. See the [latest updates](/docs/runtimes/liberty/updates.html) documentation for additional information.
 
 ### New SDK for Node.js buildpack v3.12
 New as of: 16 May 2017
