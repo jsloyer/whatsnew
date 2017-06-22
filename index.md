@@ -152,6 +152,18 @@ The Liberty buildpack v3.8 provides new default and monthly Liberty runtime vers
 ## Services
 {: #services_category}
 
+### {{site.data.keyword.uccr_full}} beta 
+New as of: 23 June 2017
+
+{{site.data.keyword.uccr_short}} is an enterprise-scale release management solution that supports both cloud-native and on-prem deployment tools.
+
+The beta version of {{site.data.keyword.uccr_short}} provides the following key features:
+* Use releases to manage multiple deployment plans and events, and collaborate on multi-team release efforts.
+* Create events for any release-related activity and manage them with the calendar.
+* Import your own events and releases.
+* Customize calendar events to fit your organization.
+* Use email and Slack type tasks for release notifications.
+
 ### dashDB for Transactions has been renamed to {{site.data.keyword.DB2OnCloud_short}}
 New as of: 14 June 2017
 
