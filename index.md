@@ -73,13 +73,13 @@ With the latest updates and improvements from June, you can use the following ne
     * Search is provided to filter results by application name and Organization name
     * A Learn More link is provided, showing how the administration console metrics api is used to generate the Applications view
  
-See [Resource usage](index.html#resourceusage) for more information.
+See [Resource usage](/docs/hybrid/index.html#resourceusage) for more information.
 
 #### Updates to API for Metrics
 
   * Environment statistics have been added, providing averages by day or month for memory and disk consumption
   
-See [API for Metrics](index.html#envappmetricsapi) for more information.
+See [API for Metrics](/docs/hybrid/index.html#envappmetricsapi) for more information.
 
 
 ### May updates for the administration console
