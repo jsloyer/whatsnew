@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-06-22" 
+lastupdated: "2017-06-26" 
 
 ---
 
@@ -55,6 +55,32 @@ New as of: 03 February 2017
 
 ## {{site.data.keyword.Bluemix_notm}} Local and {{site.data.keyword.Bluemix_notm}} Dedicated
 {: #dedicatedandlocal}
+
+### June updates for the administration console
+{: #mayadminconsole}
+New as of: 26 June 2017
+
+With the latest updates and improvements from June, you can use the following new features:
+
+#### Updates to the Resource Usage Page
+
+  * System resources
+    * The History view for memory and disk has been updated to display data over 48 hours, 30 days, and 5 hours
+    * A Learn More link is provided, showing how the administration console metrics api is used to generate the History views 
+  * Applications
+    * Provides usage information for all applications in the environment
+    * Sort by application name, physical memory, reserved memory, physical disk, reserved disk, physical CPU, or Organization name 
+    * Search is provided to filter results by application name and Organization name
+    * A Learn More link is provided, showing how the administration console metrics api is used to generate the Applications view
+ 
+See [Resource usage](index.html#resourceusage) for more information.
+
+#### Updates to API for Metrics
+
+  * Environment statistics have been added, providing averages by day or month for memory and disk consumption
+  
+See [API for Metrics](index.html#envappmetricsapi) for more information.
+
 
 ### May updates for the administration console
 {: #mayadminconsole}
