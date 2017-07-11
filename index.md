@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-06-26" 
+lastupdated: "2017-07-11" 
 
 ---
 
@@ -177,6 +177,19 @@ The Liberty buildpack v3.8 provides new default and monthly Liberty runtime vers
 
 ## Services
 {: #services_category}
+
+### {{site.data.keyword.contdelivery_full}} upgrade
+New as of: 11 July 2017
+
+Benefits of the upgrade include bug fixes, performance improvements, and refinements to the user experience. Noteworthy enhancements, if not already present on your environment, include:
+<ul>
+<li>Fixes and improvements to internationalization and accessibility.</li>
+<li>Toolchain access control, available from a toolchain's Manage tab.</li>
+<li>New tool integrations in the Continuous Delivery tool catalog.</li>
+<li>Improved grouping of multiple workspaces in the Orion Web IDE.</li>
+<li>Support for multiple editor tabs in the Orion Web IDE.</li>
+<li>Support for UI themes in the Orion Web IDE.</li>
+</ul>
 
 ### {{site.data.keyword.uccr_full}} beta 
 New as of: 23 June 2017
