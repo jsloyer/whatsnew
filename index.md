@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-07-11" 
+lastupdated: "2017-07-17" 
 
 ---
 
@@ -177,6 +177,25 @@ The Liberty buildpack v3.8 provides new default and monthly Liberty runtime vers
 
 ## Services
 {: #services_category}
+
+### IBM Cloud Monitoring is now available in the US South region
+New as of: 17 July 2017
+
+Use the {{site.data.keyword.monitoringlong}} service to expand your collection, retention, and analysis capabilities in {{site.data.keyword.Bluemix_notm}} when working with metrics. 
+
+* Alert into action! {{site.data.keyword.monitoringlong}} offers an API that you can use to set performance thresholds, and to be notified when those thresholds are breached. Define alert rules for a single service instance or app instance, and alert rules that report on a set of instances. When an alert is triggered, get a notification through an e-mail, a PagerDuty event, a webhook notification, or any combination of the three.
+
+* Add custom metrics. {{site.data.keyword.monitoringlong}} premium plan offers APIs that you can use to add relevant application and business metrics to your Cloud Monitoring data. You can also use them to send metric data from outside the {{site.data.keyword.IBM_notm}} Cloud into the {{site.data.keyword.monitoringlong}} service.
+
+* Build reusable dashboards and make them interactive. {{site.data.keyword.monitoringlong}}’s hosted Grafana provides support for building custom dashboards with a large palate of visualization options.  Make your dashboards dynamic with templating by using metric queries with variables.
+
+* Access your service through the {{site.data.keyword.Bluemix_notm}} catalog. {{site.data.keyword.monitoringlong}} is available as a service tile in the DevOps section of the {{site.data.keyword.Bluemix_notm}} catalog.  For the {{site.data.keyword.containershort}} service with single and group containers, you can access the service from the {{site.data.keyword.Bluemix_notm}} UI.
+
+* Choose the service plan that fits your needs. You may choose the Lite service plan or the Premium service plan to match your usage needs. The Lite plan offers metric collection at once per minute, retention for 15 days, and complementary alerting.  Alternatively, you can select the Premium plan to enable greater consumption, longer metrics retention, and to gain access to the service APIs, for example, to send or retrieve metrics from the {{site.data.keyword.monitoringlong}} service. {{site.data.keyword.monitoringlong}} offers metric collection at once per minute.  The Lite plan retains metrics at full resolution for 15 days. The Premium plan retains metrics at full resolution for 45 days.
+
+The legacy {{site.data.keyword.monitoringshort}} service collected metrics at service defined frequencies starting at 30 seconds, and summarized to 1 hour frequencies over time. {{site.data.keyword.monitoringlong}} now offers full resolution collection at 1 minute.  The Lite plan retains metrics for 15 days.  The Premium plan retains metrics for 45 days.
+
+For more information about the {{site.data.keyword.monitoringlong}} service, refer to [the Getting started with Monitoring documentation](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) or [the IBM Cloud Monitoring – Service Refresh with New Features and Name blog post ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-log-analysis-service-refresh-with-new-features).
 
 ### {{site.data.keyword.contdelivery_full}} upgrade
 New as of: 11 July 2017
