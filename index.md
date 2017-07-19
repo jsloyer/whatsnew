@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-07-17" 
+lastupdated: "2017-07-19" 
 
 ---
 
@@ -152,6 +152,11 @@ Visit the following pages for a cumulative list of the latest updates:
 * [Latest Updates to the Liberty buildpack](/docs/runtimes/liberty/updates.html#latest_updates)
 * [Latest Updates to the ASP.NET Core buildpack](/docs/runtimes/dotnet/updates.html#latest_updates)
 * [Latest updates to the IBM XPages for {{site.data.keyword.Bluemix_notm}} buildpack](/docs/starters/xpages/index.html#updates)
+
+### New Liberty for Java buildpack v3.11
+New as of: 17 July 2017
+
+The Liberty buildpack v3.11 provides new monthly Liberty runtime version and contains other improvements. The monthly Liberty runtime version was updated to the  [2017.7.0.0](https://developer.ibm.com/wasdev/blog/2017/07/07/beta-websphere-liberty-tools-july-2017/) release. The IBM JDK has been updated to the 8.0.4.7 and 7.1.4.5 versions. The buildpack also provides updated versions of the App Management utility and Auto-Scaling agent. The default Cloudant Library is now the official [java-cloudant](https://github.com/cloudant/java-cloudant), the [Ektorp library](https://github.com/helun/Ektorp) is still available as an option, for details on this change see the [blog post](https://www.ibm.com/blogs/bluemix/2017/05/default-library-change-cloudant-auto-wiring-liberty-buildpack/). The default heap size ratio is now 50% when your application has less than 512mb of memory, if it has more than 512mb it will still be 75%. A new staging task log is now generated, which allows for easier debugging of staging errors.See the [latest updates](https://console.ng.bluemix.net/docs/runtimes/liberty/updates.html) documentation for additional information.
 
 ### New Liberty for Java buildpack v3.10
 New as of: 12 June 2017
