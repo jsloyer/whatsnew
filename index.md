@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-07-19" 
+lastupdated: "2017-07-25" 
 
 ---
 
@@ -182,6 +182,18 @@ The Liberty buildpack v3.8 provides new default and monthly Liberty runtime vers
 
 ## Services
 {: #services_category}
+
+### IBM dashDB for Analytics has been renamed
+New as of: 18 July 2017
+
+The following table summarizes the new name:
+
+| Previous name               | New name                   | Effective date |
+|-----------------------------|----------------------------|----------------|
+| IBM dashDB for Analytics    | IBM Db2 Warehouse on Cloud | July 18, 2017  |
+{: caption="Table 1. Service name change" caption-side="top"}
+ 
+For a cumulative list of updates for Db2 Warehouse on Cloud and Db2 on Cloud, see: [What's New in Db2 Warehouse on Cloud and Db2 on Cloud](http://www.ibm.com/support/docview.wss?uid=swg21961758){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). 
 
 ### IBM Cloud Monitoring is now available in the US South region
 New as of: 17 July 2017
