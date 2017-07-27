@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-07-25" 
+lastupdated: "2017-07-27" 
 
 ---
 
@@ -21,6 +21,13 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### {{site.data.keyword.Bluemix_notm}} global catalog 
+New as of: 27 July 2017
+
+Expanding on the last console update to manage your public regions from a single location in the console, {{site.data.keyword.Bluemix_notm}} now has a global catalog making the process of selecting and deploying items you select from the catalog a more streamlined process. Regardless of the region you have selected in the console, you can now see all services that are available across all public regions from your catalog. Once you select a tile from the catalog, you can see which regions the service is available in, and select where you want to deploy it.
+
+For more information about the latest updates to the catalog, see [A global {{site.data.keyword.Bluemix_notm}} catalog makes building things easier](https://www.ibm.com/blogs/bluemix/2017/07/global-bluemix-catalog-makes-building-things-easier/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ### {{site.data.keyword.Bluemix_notm}} console updates
 New as of: 23 May 2017
