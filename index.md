@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-07-27" 
+lastupdated: "2017-07-31" 
 
 ---
 
@@ -145,6 +145,31 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ## Services
 {: #services_category}
 
+### IBM Cloud Log Analysis is now available in the US South region
+New as of: 31 July 2017
+
+The {{site.data.keyword.loganalysisfull}} service provides log collection and log search services for the {{site.data.keyword.Bluemix_notm}} platform, automatically collecting application and {{site.data.keyword.Bluemix_notm}} services’ data from select {{site.data.keyword.Bluemix_notm}} services. Use the {{site.data.keyword.loganalysisshort}} service to:
+
+* Retain logs as long as you require.  
+
+    Logs are stored on IBM Cloud storage.  You can download logs when you need them.
+	
+* Manage your retained logs, and send log data from outside the {{site.data.keyword.IBM_notm}} Cloud by using the new API.
+
+* Choose the amount of logs that you can search per day.  
+
+    Different plans are available that you can use to search up to 500MB,  2GB, 5GB, and 10GB of logs per day.
+
+* Build reusable dashboards and make them interactive. 
+
+    {{site.data.keyword.loganalysisshort}}’s hosted Kibana provides support for building custom dashboards.
+
+* Access your service through the Bluemix catalog.  
+
+    For the  {{site.data.keyword.loganalysisshort}} service with single and group containers, and {{site.data.keyword.IBM_notm}} Cloud Foundry services, you can access the service from the {{site.data.keyword.Bluemix_notm}} UI.
+
+For more information about the {{site.data.keyword.loganalysisshort}} service, refer to the [Getting started with {{site.data.keyword.loganalysisfull}}](/docs/services/CloudLogAnalysis/index.html#getting-started-with-ibm-cloud-log-analysis) and the [{{site.data.keyword.loganalysisshort}} overview](/docs/services/CloudLogAnalysis/log_analysis_ov.html#log_analysis_ov).
+
 ### IBM dashDB for Analytics has been renamed
 New as of: 18 July 2017
 
@@ -174,7 +199,7 @@ Use the {{site.data.keyword.monitoringlong}} service to expand your collection, 
 
 The legacy {{site.data.keyword.monitoringshort}} service collected metrics at service defined frequencies starting at 30 seconds, and summarized to 1 hour frequencies over time. {{site.data.keyword.monitoringlong}} now offers full resolution collection at 1 minute.  The Lite plan retains metrics for 15 days.  The Premium plan retains metrics for 45 days.
 
-For more information about the {{site.data.keyword.monitoringlong}} service, refer to [the Getting started with Monitoring documentation](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) or [the IBM Cloud Monitoring – Service Refresh with New Features and Name blog post ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-log-analysis-service-refresh-with-new-features).
+For more information about the {{site.data.keyword.monitoringlong}} service, refer to [the Getting started with Monitoring documentation](/docs/services/cloud-monitoring/index.html#getting-started-with-ibm-cloud-monitoring) or [the IBM Cloud Monitoring – Service Refresh with New Features and Name blog post ![External link icon](../icons/launch-glyph.svg "External link icon")](https://www.ibm.com/blogs/bluemix/2017/07/ibm-cloud-monitoring-service-refresh-new-features/).
 
 ### {{site.data.keyword.contdelivery_full}} upgrade
 New as of: 11 July 2017
