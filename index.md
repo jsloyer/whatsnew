@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-07-31" 
+lastupdated: "2017-08-08" 
 
 ---
 
@@ -57,6 +57,19 @@ With this navigation update, we think you'll understand how content is organized
 
 ## {{site.data.keyword.Bluemix_notm}} Local and {{site.data.keyword.Bluemix_notm}} Dedicated
 {: #dedicatedandlocal}
+
+### July updates for the administration console
+{: #julyadminconsole}
+New as of: 31 July 2017
+
+With the latest updates and improvements from July, you can use the following new features:
+
+#### Updates to resource usage history capabilities
+
+  * In the previous update (June), the History view for memory and disk usage had introduced display of usage data over the last 48 hours, 30 days, and 5 mohths. In this latest July update, the resource usage history functionality has been expanded to allow customization of the time span for which to show resource usage data. Hourly, daily and monthly views remain, but users can now specify a start day/time and duration for which to display memory and disk usage metrics (for example, showing memory usage for 15 days starting on July 1st 2017).
+  * A new CLI command has been introduced to display resource metrics history in the CLI. The parameters of the command, as well as usage examples can be found by typing the following: `_cf ba resource-metrics-history -help_`
+ 
+See the [video demonstration](https://youtu.be/QBij0jB5qAk){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for more information.
 
 ### June updates for the administration console
 {: #mayadminconsole}
