@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-15" 
+lastupdated: "2017-08-29" 
 
 ---
 
@@ -161,7 +161,7 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ### {{site.data.keyword.streaminganalyticsshort}} service update: The console includes new ways to pinpoint problems in your applications
 New as of: 14 August 2017
  
-The PE and operator log files are available and source file location is now displayed for Python and Java applications. 
+For Python and Java applications, the source file location is displayed based on your @spl_note annotations. 
  
 For details, see [Latest improvements to the {{site.data.keyword.streaminganalyticsshort}}](https://developer.ibm.com/streamsdev/2017/08/14/latest-improvements-streaming-analytics-console/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
