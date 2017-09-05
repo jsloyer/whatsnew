@@ -149,6 +149,15 @@ Visit the following pages for a cumulative list of the latest updates:
 * [Latest Updates to the ASP.NET Core buildpack](/docs/runtimes/dotnet/updates.html#latest_updates)
 * [Latest updates to the IBM XPages for {{site.data.keyword.Bluemix_notm}} buildpack](/docs/starters/xpages/index.html#updates)
 
+### Latest updates for {{site.data.keyword.containerlong_notm}}
+New as of: 5 September 2017
+
+{{site.data.keyword.containerlong_notm}} launched its Kubernetes architecture in May, now running in [Dallas, Frankfurt, London, and Sydney](https://www.ibm.com/blogs/bluemix/2017/07/ibm-bluemix-container-service-live-sydney-london/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). [The plan is to fully deprecate the single and scalable container group architecture on December 5, 2017](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").  
+
+Leverage the capabilities of the new service with Kubernetes instead of single and scalable container groups as soon as possible. [See the documentation for information about migrating from a native Docker environment to a native Kubernetes environment on Bluemix](/docs/containers/cs_classic.html#cs_classic_migrating).
+
+If you have questions, you can post them in the Slack at https://ibm-container-service.slack.com/.
+
 ### New Liberty for Java buildpack v3.11
 New as of: 17 July 2017
 
