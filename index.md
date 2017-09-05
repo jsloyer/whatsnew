@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-08-29" 
+lastupdated: "2017-09-05" 
 
 ---
 
@@ -57,6 +57,22 @@ With this navigation update, we think you'll understand how content is organized
 
 ## {{site.data.keyword.Bluemix_notm}} Local and {{site.data.keyword.Bluemix_notm}} Dedicated
 {: #dedicatedandlocal}
+
+### August updates for the administration console
+{: #augustadminconsole}
+New as of: 31 August 2017
+
+With the latest updates and improvements from August, you can use the following new features:
+
+#### Updates to {{site.data.keyword.cloudant_short_notm}} service usage metrics
+
+  * The computation of usage metrics for {{site.data.keyword.cloudant_short_notm}} has been updated to reflect the total amount of GBs used and available across all nodes in a {{site.data.keyword.cloudant_short_notm}} cluster. Typically, a {{site.data.keyword.cloudant_short_notm}} cluster contains 3 nodes, and a document in the database is replicated across all the nodes in the cluster for high-availability and disaster recovery. With the August updates, the capacity metric in the {{site.data.keyword.cloudant_short_notm}} dial (available in the _Resource Usage > Services_ view) indicates the space across all the nodes in the cluster. For example, if a single {{site.data.keyword.cloudant_short_notm}} cluster contains 3 nodes, each with 1000 GB capacity, the capacity limit will be 3000 GB. If 1500 GBs of that capacity have been used, the {{site.data.keyword.cloudant_short_notm}} usage metric will be 50%.
+ 
+#### Updates to the scheduling of maintenance updates
+
+  * In {{site.data.keyword.Bluemix_notm}} Dedicated, customers can manage the dates and times when their dedicated environments are available for deployment of system updates. Customers can define availability windows representing dates and times when maintenance updates can and cannot be deployed. In the August update, the terminology has been simplified. _Available Update Windows_ have been renamed _Update Windows_, and _Unavailable Update Windows_ have been renamed _Blackout Windows_.  Beyond the terminology changes, customers will have more flexibility and margin for defining blackout (unavailable) dates. The admin console will try to approve any _Blackout Window_ requested, unless the blackout window doesn't leave a minimum window for IBM to carry out the deployments. More importantly, it will allow customers to blackout dates even when a deployment was already scheduled on the blackout dates requested. If a maintenance deployment was scheduled during one of the requested blackout dates and the request is approved, the console will reschedule the deployment. The time to approve a blackout request will vary. Some will be approved in minutes, while others will take longer depending on the blackout coverage and the time available for IBM to reschedule any maintenance deployments affected by the blackout dates. It is not recommended to blackout dates for which a maintenance deployment was already scheduled within seven days of the date the blackout is requested, since it wouldn't leave enough time for IBM to reschedule the deployment. 
+
+See the [video demonstration](https://youtu.be/NDR2QEX72Hc){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for more information.
 
 ### July updates for the administration console
 {: #julyadminconsole}
