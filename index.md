@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-09-06" 
+lastupdated: "2017-09-15" 
 
 ---
 
@@ -182,6 +182,21 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### New {{site.data.keyword.iva_full}} experimental service
+New as of: 15 September 2017
+
+With the new {{site.data.keyword.iva_full}} experimental service, you can create a cognitive voice agent built on Watson services that customers can call and speak to over the phone. With Watson artificial intelligence at its backbone, your voice agent can communicate in a conversational manner, handling complex interactions and solving customer calls within the voice agent.
+
+{{site.data.keyword.iva_short}} seamlessly connects to and orchestrates the Watson {{site.data.keyword.speechtotextshort}}, {{site.data.keyword.conversationshort}}, and {{site.data.keyword.texttospeechshort}} services to simulate natural-language conversation. Each voice agent automatically scales to handle multiple calls at the same time. In this experimental release, you can customize your voice agent by using the following key features:
+
+* Import the sample {{site.data.keyword.conversationshort}} dialog to get started, then create your own dialog to fit your company's needs.
+* Program voice agent behavior from within the {{site.data.keyword.conversationshort}} service by using our APIs. You control everything from barge-in behavior to hanging up the call for any node in your dialog.
+* Easily create and manage multiple voice agents if you want to connect different phone numbers to cognitive agents that are specialized for different topics.
+* Expand the service's capabilities by connecting a service orchestration engine (SOE) so you can use third-party APIs. For example, the SOE can listen for triggers from the {{site.data.keyword.conversationshort}} service, then use your provided APIs to look up information in existing systems or provide other analysis.
+
+To get started, see the [Getting started with {{site.data.keyword.iva_short}}](/docs/services/voice-agent/getting-started.html) documentation.
+
 
 ### {{site.data.keyword.streaminganalyticsshort}} service update: The console includes new ways to pinpoint problems in your applications
 New as of: 14 August 2017
