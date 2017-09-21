@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-09-15" 
+lastupdated: "2017-09-21" 
 
 ---
 
@@ -182,6 +182,13 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### {{site.data.keyword.containerlong_notm}} cluster update
+New as of: 20 September 2017
+
+You can now update your clusters to the latest available version of Kubernetes in {{site.data.keyword.Bluemix_notm}}. Using either the GUI or the CLI, update your Kubernetes master and your worker nodes to Kubernetes 1.7 and take advantage of the new features and patches.
+
+For more information, check out [Kubernetes 1.7 available in {{site.data.keyword.containerlong_notm}}](https://www.ibm.com/blogs/bluemix/2017/09/kubernetes-1-7-available-ibm-bluemix-container-service/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ### New {{site.data.keyword.iva_full}} experimental service
 New as of: 15 September 2017
