@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-09-21" 
+lastupdated: "2017-10-10" 
 
 ---
 
@@ -182,6 +182,11 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### Updates to {{site.data.keyword.relationshipextractionfull}}
+New as of: 4 October 2017
+
+A new customization capability and new language models are available for user by {{site.data.keyword.relationshipextractionshort}}. The new languages are Dutch, Korean, and Simplified-Chinese support for WKS.
 
 ### {{site.data.keyword.containerlong_notm}} cluster update
 New as of: 20 September 2017
