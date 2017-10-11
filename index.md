@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-10" 
+lastupdated: "2017-10-11" 
 
 ---
 
@@ -21,6 +21,13 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Identity and Access Management application authentication feature
+New as of: 6 October 2017
+
+Identity and Access Management (IAM) now provides the ability to create a Service ID, which you can think of as an identity that can be used for apps to authenticate with your {{site.data.keyword.Bluemix_notm}} services. Instead of using individual user credentials, a Service ID can be created with an associated API key and access permissions in the form of a service policy that is assigned to the Service ID in order for you to control the level of access for any application authenticating with that ID.
+
+For more information about the benefits of this feature and how to get started, see the [Introducing IBM Cloud IAM Service IDs and API Keys](https://www.ibm.com/blogs/bluemix/2017/10/introducing-ibm-cloud-iam-service-ids-api-keys/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). 
 
 ### {{site.data.keyword.Bluemix_notm}} global catalog 
 New as of: 27 July 2017
