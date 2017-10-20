@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-11" 
+lastupdated: "2017-10-20" 
 
 ---
 
@@ -189,6 +189,12 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### Updates for {{site.data.keyword.streaminganalyticsshort}}
+New as of: 20 October 2017
+
+* IBM Streams Runner for Apache Beam: You can now develop Beam applications locally in your Streams development environment and then submit these apps to the {{site.data.keyword.streaminganalyticsshort}} service in the {{site.data.keyword.Bluemix_notm}}. IBM Streams Runner for Apache Beam executes Beam pipelines in a Streams environment. A Beam application that is launched with Streams Runner is translated into a Streams Application Bundle (SAB) file that you can then deploy in {{site.data.keyword.streaminganalyticsshort}}. Check out [IBM Streams Runner for Apache Beam in Streaming Analytics](/docs/services/StreamingAnalytics/gs_beamrunner.html) for more details.
+* You can find information from log files even faster. The console has been updated to improve the display of application graphs for Python or Java topologies. See [Enhancements to the Console](https://developer.ibm.com/streamsdev/2017/10/13/enhancements-to-the-console/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 ### Updates to {{site.data.keyword.relationshipextractionfull}}
 New as of: 4 October 2017
