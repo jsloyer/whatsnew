@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-20" 
+lastupdated: "2017-10-26" 
 
 ---
 
@@ -189,6 +189,55 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 
 ## Services
 {: #services_category}
+
+### What’s New in {{site.data.keyword.mobilepushshort}}
+New as of: 26 October 2017
+
+We have made several enhancements for the {{site.data.keyword.mobilepushshort}} service in the last few months. The service is now available in Frankfurt region along with Dallas, London, and Sydney. Following are the details of the enhancements:
+
+#### Monitoring
+You can now track push notification performance for specific time periods, track the number of notifications sent and total number of devices registered. You can also register web hooks to be informed of all events in the lifecycle of a notification. More details can be found in the following documentation links and blog post:
+* [Monitor notifications](/docs/services/mobilepush/push_monitoring.html#push_monitoring)
+* [Receive alerts on webhook events](/docs/services/mobilepush/push_webhook.html#webhook_event_based_notifications)
+* [Monitoring in IBM Push Notifications](https://www.ibm.com/blogs/bluemix/2017/03/monitoring-ibm-push-notifications/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+
+#### Web notifications
+We now support Safari web browser for web notifications along with Firefox, Chrome, Chrome App & Extensions. Web SDK’s and related information can be found at [IBM Bluemix Push Notifications Web SDK](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-javascript-webpush/blob/Doc/README.md){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+
+#### Latest Android and iOS notifications
+We have currency support for iOS 11 notifications. We have also incorporated several new notification related enhancements from iOS10 and Android N.
+
+* iOS10 –Rich Media Notifications, images, button & maps in interactive notifications, localized string support
+* Android N – Expandable notifications, interactive & silent notifications, LED light settings
+
+Additional details can be found in the [Rich Media notifications](/docs/services/mobilepush/push_step_4_nf_rich.html#interactive-notifications) documentation, [Interactive and silent notifications](/docs/services/mobilepush/push_step_4_nf_interactive.html#interactive-notifications) documentation, and the [Enabling advanced push notifications](/docs/services/mobilepush/push_step_4_nf_adv.html#enabling-advanced-push-notifications) documentation.
+
+#### APNS HTTP/2 support
+Apple introduced support for HTTP protocol for Apple Notifications. {{site.data.keyword.mobilepushshort}} service now supports HTTP/2 protocol. With this support, notification payloads can be 4KB with increased throughput and provides instant feedback feature. Support for Universal Certificate allows the app to connect to both sandbox and production environments.
+
+#### New Lite plan 
+Lite Plan for {{site.data.keyword.mobilepushshort}} service provides the ability to send 100K notifications free for every month. For more information, see the [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") blog post.
+
+
+### What’s New in Mobile Analytics
+New as of: 26 October 2017
+
+We have made enhancements for {{site.data.keyword.mobileanalytics_short}} service in the last few months. The service is now available in Frankfurt and Sydney regions along with Dallas and London. Following are the details of the enhancements:
+
+#### Web SDK Support
+{{site.data.keyword.mobileanalytics_short}} is now Omni channel service with the addition of support for Web app analytics. More details can be found at [https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/](https://github.com/ibm-bluemix-mobile-services/bms-clientsdk-web-analytics/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+
+#### Integration with {{site.data.keyword.mobilefoundation_short}} service
+{{site.data.keyword.mobilefoundation_short}} service now leverages {{site.data.keyword.mobileanalytics_short}} service for app, user and performance analytics. Users can leverage the export to DB2 warehouse option to build adapter analytics and custom charts. You can find additional details in the following blog posts:
+
+* [Mobile Foundation Service integration with Mobile Analytics Service](https://www.ibm.com/blogs/bluemix/2017/08/mobile-foundation-service-integration-mobile-analytics-service-2/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+* [Building custom charts using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/custom-charts-using-analytics-and-dashdb-analytics-service/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+* [Building charts for Adapter analytics using IBM Bluemix Mobile Analytics service and IBM Mobile Foundation Service](https://mobilefirstplatform.ibmcloud.com/blog/2017/04/26/adapter-analytics-using-analytics-and-dashdb-analytics-service/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon")
+
+#### {{site.data.keyword.mobilefirst_notm}} boilerplate now includes {{site.data.keyword.mobileanalytics_short}}
+Mobile Services Boilerplate is a template that provides a set of mobile services for users to quickly get started. {{site.data.keyword.mobileanalytics_short}} service is now a part of the boiler plate available in the [catalog](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+
+
 
 ### Updates for {{site.data.keyword.streaminganalyticsshort}}
 New as of: 20 October 2017
