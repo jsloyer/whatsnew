@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-26" 
+lastupdated: "2017-10-31" 
 
 ---
 
@@ -21,6 +21,11 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Lite account
+New as of: 31 October 2017
+
+A Lite account is our new account type that gives you access to try select services for free with no time restrictions. This new account also includes usage tracking and efficiency features to help you better manage your resources. To learn more about what's available, see [Account types](/docs/pricing/index.html#liteaccount).
 
 ### Identity and Access Management application authentication feature
 New as of: 6 October 2017
