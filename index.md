@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-10-31" 
+lastupdated: "2017-11-01" 
 
 ---
 
@@ -25,7 +25,7 @@ Stay up-to-date with the new features and services that are available in {{site.
 ### Introducing IBM Cloud
 New as of: 31 October 2017
 
-Bluemix is now IBM Cloud. Besides rolling out our new name, nothing changes. You can still easily build and run your apps and services as always. 
+Bluemix is now IBM Cloud. Besides rolling out our new name, nothing changes. You can still easily build and run your apps and services as always. Check out the [IBM Cloud Blog](https://www.ibm.com/blogs/bluemix/2017/10/bluemix-is-now-ibm-cloud/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for more details.
 
 ### Lite account
 New as of: 31 October 2017
