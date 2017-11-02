@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-01" 
+lastupdated: "2017-11-02" 
 
 ---
 
@@ -21,6 +21,12 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+
+### Support Center
+New as of: 2 November 2017
+
+We now have the new Support Center where you can search for information, post questions to our developer community, and manage tickets. Go to **Support > Support Center** in the {{site.data.keyword.Bluemix_notm}} console menu bar. 
 
 ### Introducing IBM Cloud
 New as of: 31 October 2017
