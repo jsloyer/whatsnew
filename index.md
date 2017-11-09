@@ -16,7 +16,7 @@ lastupdated: "2017-11-02"
 
 # What's new in {{site.data.keyword.Bluemix_notm}}
 
-Stay up-to-date with the new features and services that are available in {{site.data.keyword.Bluemix}}, so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. The updates are organized into these categories: [{{site.data.keyword.Bluemix_notm}} platform](index.html#platform_category), [{{site.data.keyword.Bluemix_notm}} Local and {{site.data.keyword.Bluemix_notm}} Dedicated](index.html#dedicatedandlocal), [Compute](index.html#compute_category), and [Services](index.html#services_category).
+Stay up-to-date with the new features and services that are available in {{site.data.keyword.Bluemix}}, so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. The updates are organized into these categories: [{{site.data.keyword.Bluemix_notm}} platform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), and [Services](index.html#services_category).
 {:shortdesc}
 
 ## {{site.data.keyword.Bluemix_notm}} platform
@@ -78,7 +78,7 @@ New as of: 13 April 2017
 With this navigation update, we think you'll understand how content is organized throughout our docs better, and will be able to find relevant content more efficiently. With fewer nested layers of content, you won't have to dig around to find the documentation you need to be successful with {{site.data.keyword.Bluemix_notm}}.
 
 
-## {{site.data.keyword.Bluemix_notm}} Local and {{site.data.keyword.Bluemix_notm}} Dedicated
+## {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix__dedicated_notm}}
 {: #dedicatedandlocal}
 
 ### August updates for the administration console
@@ -93,7 +93,7 @@ With the latest updates and improvements from August, you can use the following 
  
 #### Updates to the scheduling of maintenance updates
   
-  * In {{site.data.keyword.Bluemix_notm}} Dedicated, customers can manage the dates and times when their dedicated environments are available for deployment of system updates. Customers can define availability windows representing dates and times when maintenance updates can and cannot be deployed to their Dedicated environment. In the August update, _Available Update Windows_ have been renamed _Update Windows_, and _Unavailable Update Windows_ have been renamed _Blackout Windows_. Beyond the terminology changes, customers now have more flexibility and margin for defining blackout (unavailable) dates. Once requested, blackout dates will require IBM approval, and the time it takes to gain approval will vary. When the requested blackout dates are approved, IBM will cancel any existing updates that are currently scheduled during the unavailable window. IBM will also create new records for these updates and schedule them outside the approved blackout dates.
+  * In {{site.data.keyword.Bluemix_dedicated_notm}}, customers can manage the dates and times when their dedicated environments are available for deployment of system updates. Customers can define availability windows representing dates and times when maintenance updates can and cannot be deployed to their Dedicated environment. In the August update, _Available Update Windows_ have been renamed _Update Windows_, and _Unavailable Update Windows_ have been renamed _Blackout Windows_. Beyond the terminology changes, customers now have more flexibility and margin for defining blackout (unavailable) dates. Once requested, blackout dates will require IBM approval, and the time it takes to gain approval will vary. When the requested blackout dates are approved, IBM will cancel any existing updates that are currently scheduled during the unavailable window. IBM will also create new records for these updates and schedule them outside the approved blackout dates.
   
 See the [video demonstration](https://bit.ly/2eCQNvu){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for more information.
 
@@ -142,7 +142,7 @@ New as of: 30 May 2017
 
 With the latest updates and improvements from May, you can use the following new features:
 
- * Improvements on the Status page including more granular diagnostics on incidents affecting the Bluemix platform and runtimes.
+ * Improvements on the Status page including more granular diagnostics on incidents affecting the {{site.data.keyword.Bluemix_notm}} platform and runtimes.
  * Improvements to the security Reports and Logs page:
    * Reports are now displayed in a table format, simplyfying the browsing and searching of reports, including the ability to sort by report category, file name, or creation date. 
    * Enhanced filtering including simultaneous filtering of multiple categories 
@@ -177,7 +177,7 @@ New as of: 5 September 2017
 
 {{site.data.keyword.containerlong_notm}} launched its Kubernetes architecture in May, now running in [Dallas, Frankfurt, London, and Sydney](https://www.ibm.com/blogs/bluemix/2017/07/ibm-bluemix-container-service-live-sydney-london/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon"). [The plan is to fully deprecate the single and scalable container group architecture on December 5, 2017](https://www.ibm.com/blogs/bluemix/2017/07/deprecation-single-scalable-group-container-service-bluemix-public/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").  
 
-Leverage the capabilities of the new service with Kubernetes instead of single and scalable container groups as soon as possible. [See the documentation for information about migrating from a native Docker environment to a native Kubernetes environment on Bluemix](/docs/containers/cs_classic.html#cs_classic_migrating).
+Leverage the capabilities of the new service with Kubernetes instead of single and scalable container groups as soon as possible. [See the documentation for information about migrating from a native Docker environment to a native Kubernetes environment on {{site.data.keyword.Bluemix_notm}}](/docs/containers/cs_classic.html#cs_classic_migrating).
 
 If you have questions, you can post them in the Slack at https://ibm-container-service.slack.com/.
 
@@ -334,7 +334,7 @@ The {{site.data.keyword.loganalysisfull}} service provides log collection and lo
 
     {{site.data.keyword.loganalysisshort}}’s hosted Kibana provides support for building custom dashboards.
 
-* Access your service through the Bluemix catalog.  
+* Access your service through the {{site.data.keyword.Bluemix_notm}} catalog.  
 
     For the  {{site.data.keyword.loganalysisshort}} service with single and group containers, and {{site.data.keyword.IBM_notm}} Cloud Foundry services, you can access the service from the {{site.data.keyword.Bluemix_notm}} UI.
 
