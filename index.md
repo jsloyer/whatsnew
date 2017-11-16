@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-02" 
+lastupdated: "2017-11-16" 
 
 ---
 
@@ -21,6 +21,27 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### A new way to organize resources within your account
+New as of: 16 November 2017
+
+Resource groups are a new way for you to create customizable groupings of account resources, and access to the group and the resources within it are managed by using Identity and Access Management (IAM). Everyone starts out with a default resource group. You can rename this resource group and add new service intances to it as you create them from the catalog. 
+
+For users with a Pay-As-You-Go or Subscription account, you can create additional resource groups to make managing quota and viewing billing usage for a set of resources easier. You can also group resources to make it easier for you to assign users access to more than one service at a time. To learn more about working with resource groups for your account, see [Managing resource groups](/docs/admin/resourcegroups.html#rgs).
+
+### Updates for {{site.data.keyword.Bluemix_notm}} IAM
+New as of: 16 November 2017
+
+The introduction of [resource groups](/docs/overview/ibm-cloud.html#whatis) within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you just choose to assign access to individual resources down to the service instance level.
+
+You can also grant access between service instances by using the [authorizations](/docs/iam/authorizations.html#serviceauth) feature. Set a source and target for the authorization, and then choose a role for the source service that is accessing the target. This feature provides the ability for one service instance to access a resource in another service instance.
+ 
+For more information about the features that you can take advantage of by using IAM, see [What features does IAM provide?](/docs/iam/index.html#features)
+
+### Customize your dashboard view 
+New as of: 16 November 2017
+
+You can view and manage all the resources in your account from your dashboard in the {{site.data.keyword.Bluemix_notm}} console. And now, you can set filters to customize your view. For example, you can filter by resource group to view the specific resources in a resource group. You can also filter by region or Cloud Foundry space. For more details, see [Managing resources on the dashboard](/docs/overview/ui.html#dashboardview).
 
 
 ### Support Center
