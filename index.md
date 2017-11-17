@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-16" 
+lastupdated: "2017-11-17" 
 
 ---
 
@@ -97,7 +97,7 @@ New as of: 13 April 2017
 With this navigation update, we think you'll understand how content is organized throughout our docs better, and will be able to find relevant content more efficiently. With fewer nested layers of content, you won't have to dig around to find the documentation you need to be successful with {{site.data.keyword.Bluemix_notm}}.
 
 
-## {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix__dedicated_notm}}
+## {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #dedicatedandlocal}
 
 ### August updates for the administration console
