@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-11-17" 
+lastupdated: "2017-12-01" 
 
 ---
 
@@ -225,6 +225,25 @@ The Liberty buildpack v3.9 provides new monthly Liberty runtime version and cont
 ## Services
 {: #services_category}
 
+### {{site.data.keyword.discoveryfull}} {{site.data.keyword.visualinsightsshort}}
+New as of: 30 November 2017
+
+Visually explore connections powered by {{site.data.keyword.discoveryshort}}'s understanding of semantic elements detected in text, such as entities, relationships, concepts, and more.
+
+Begin exploring the world's news with the out-of-the-box {{site.data.keyword.discoveryshort}} News collection. Or, explore your own document collections in {{site.data.keyword.discoveryshort}}. Just log in with your {{site.data.keyword.Bluemix_notm}} credentials. See [Visual insights experimental](https://visual-insights.bluemix.net){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") for more information.
+
+### New IBM Cloud Managed Database Server Beta service
+New as of: 30 November 2017
+
+With the new IBM Cloud Managed Database Server Beta service, you can create an instance of Microsoft SQL Server on {{site.data.keyword.Bluemix_notm}}. You can use this SQL Server instance just as you would use any database management system, but without the effort and expense of hardware setup or software installation and maintenance.
+
+This service offers the following features:
+* Choice of Microsoft SQL Server versions 2012, 2014, and 2016 Enterprise and Standard Editions
+* Various predefined configurations or sizes to meet your application workload requirements
+* Fully managed by IBM, including monitoring, patching, backup, reporting
+
+To get started, see [Getting started with IBM Cloud Managed Database Server](/docs/services/managed-sql-server/getting-started.html).
+
 ### What’s New in {{site.data.keyword.mobilepushshort}}
 New as of: 26 October 2017
 
@@ -254,6 +273,7 @@ Apple introduced support for HTTP protocol for Apple Notifications. {{site.data.
 Lite Plan for {{site.data.keyword.mobilepushshort}} service provides the ability to send 100K notifications free for every month. For more information, see the [Lite Plan For Push Notifications Service on Bluemix](https://www.ibm.com/blogs/bluemix/2017/06/lite-plan-push-notifications-service-bluemix/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon") blog post.
 
 
+
 ### What’s New in Mobile Analytics
 New as of: 26 October 2017
 
@@ -273,12 +293,20 @@ We have made enhancements for {{site.data.keyword.mobileanalytics_short}} servic
 Mobile Services Boilerplate is a template that provides a set of mobile services for users to quickly get started. {{site.data.keyword.mobileanalytics_short}} service is now a part of the boiler plate available in the [catalog](https://console.bluemix.net/catalog/starters/mobilefirst-services-starter){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
 
 
-
 ### Updates for {{site.data.keyword.streaminganalyticsshort}}
 New as of: 20 October 2017
 
 * IBM Streams Runner for Apache Beam: You can now develop Beam applications locally in your Streams development environment and then submit these apps to the {{site.data.keyword.streaminganalyticsshort}} service in the {{site.data.keyword.Bluemix_notm}}. IBM Streams Runner for Apache Beam executes Beam pipelines in a Streams environment. A Beam application that is launched with Streams Runner is translated into a Streams Application Bundle (SAB) file that you can then deploy in {{site.data.keyword.streaminganalyticsshort}}. Check out [IBM Streams Runner for Apache Beam in Streaming Analytics](/docs/services/StreamingAnalytics/gs_beamrunner.html) for more details.
 * You can find information from log files even faster. The console has been updated to improve the display of application graphs for Python or Java topologies. See [Enhancements to the Console](https://developer.ibm.com/streamsdev/2017/10/13/enhancements-to-the-console/){: new_window} ![External link icon](../icons/launch-glyph.svg "External link icon").
+
+### The IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services
+New as of: 12 October 2017
+
+The IBM App Launch for {{site.data.keyword.Bluemix_notm}} Services is an experimental offering that empowers you to measure customer experiences by providing a platform to create targeted engagements across various cross-sections of your audience. The App Launch service provides insights into customer preferences and pain points as an outcome of the engagements, and helps you personalize the app for better customer experience.
+
+App Owners can now accelerate the delivery of innovations to mobile apps by avoiding release cycle complexities. App Launch service enables app owners to launch features to mobile apps at speed and measure impact by controlling the targeted audience. The app owner can work with app developer to define key performance indicators for the features, measure the impact and make feature roll out and roll back decisions based on real-time feedback. The service also provides the ability to test multiple variants of application features, user interface components, and messages and make decisions based on the feedback.
+
+For more information, see the [Getting started tutorial](/docs/services/app-launch/index.html#gettingstartedtemplate).
 
 ### Updates to {{site.data.keyword.relationshipextractionfull}}
 New as of: 4 October 2017
