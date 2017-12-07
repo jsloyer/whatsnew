@@ -32,7 +32,7 @@ For users with a Pay-As-You-Go or Subscription account, you can create additiona
 ### Updates for {{site.data.keyword.Bluemix_notm}} IAM
 New as of: 16 November 2017
 
-The introduction of [resource groups](/docs/overview/ibm-cloud.html#whatis) within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you just choose to assign access to individual resources down to the service instance level.
+The introduction of [resource groups](/docs/overview/resource-groups.html#whatis) within your {{site.data.keyword.Bluemix_notm}} account has opened up a new way for you to assign access. Users and service IDs can be assigned access to all services within a resource group enabling you to quickly assign access to more than one resource at a time. You can also customize access for each user or service ID by assigning access to just some services within a resource group, or you just choose to assign access to individual resources down to the service instance level.
  
 For more information about the features that you can take advantage of by using IAM, see [What features does IAM provide?](/docs/iam/index.html#features)
 
