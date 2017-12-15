@@ -6,7 +6,7 @@ copyright:
 
   years: 2015, 2017
 
-lastupdated: "2017-12-07" 
+lastupdated: "2017-12-14" 
 
 ---
 
@@ -21,6 +21,11 @@ Stay up-to-date with the new features and services that are available in {{site.
 
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
+
+### Support for resources in the European Union
+New as of: 14 December 2017
+
+If your services and data centers are located in Europe, {{site.data.keyword.Bluemix_notm}} now offers additional capabilities to protect your data in the European Union. You can request support be provided by customer success teams that are located in Europe. This support is available 24 hours a day, 7 days a week. See [Enabling the EU supported option](/docs/pricing/eusupported.html#bill_eusupported) and [Requesting support for resources in the European Union](/docs/support/index.html#eusupported) for more information.
 
 ### A new way to organize resources within your account
 New as of: 16 November 2017
@@ -99,6 +104,24 @@ With this navigation update, we think you'll understand how content is organized
 
 ## {{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}
 {: #dedicatedandlocal}
+
+### December updates for the administration console
+{: #decemberadminconsole}
+New as of: 14 December 2017
+
+With the latest updates and improvements from December, you can use the following new features:
+
+#### Subscribe to notifications for average CPU usage threshold
+
+Average CPU has been added as a threshold type in notification subscriptions. You can now receive notifications when CPU usage (averaged across all DEA's and Diego Cells) goes above or below a certain threshold.
+
+#### Control access to cloud systems in the European Union 
+
+Combined with the new capability in the European Union to support cloud resources (starting with Frankfurt), the administration console now has the capability to define policies that control access by IBM personnel. You can manage access control policies, view access requests, take action on the requests, and track the history.
+  
+#### Enhanced information in security reports
+
+Security reports now include user-friendly names in addition to unique IDs for users and organizations.
 
 ### August updates for the administration console
 {: #augustadminconsole}
