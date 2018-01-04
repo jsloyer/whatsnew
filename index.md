@@ -4,9 +4,9 @@
 
 copyright:
 
-  years: 2015, 2017
+  years: 2015, 2018
 
-lastupdated: "2017-12-14" 
+lastupdated: "2018-01-04" 
 
 ---
 
@@ -22,7 +22,7 @@ Stay up-to-date with the new features and services that are available in {{site.
 ## {{site.data.keyword.Bluemix_notm}} platform
 {: #platform_category}
 
-### {{site.data.keyword.Bluemix_notm}} US East region is now available
+### {{site.data.keyword.Bluemix_notm}} Foundry Service US East region is now available
 New as of:  15 December 2017
 
 A new US East data center is now available in Washington, DC. This new region can be reached using the `us-east.bluemix.net` endpoint. For details on the services that are available for purchase in this new region, see [Services by region](/docs/services/services_region.html#services_region).
