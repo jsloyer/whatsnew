@@ -15,6 +15,7 @@ lastupdated: "2018-01-04"
 {:new_window: target="_blank"}
 
 # What's new in {{site.data.keyword.Bluemix_notm}}
+{: #whatsnew}
 
 Stay up-to-date with the new features and services that are available in {{site.data.keyword.Bluemix}}, so that you get the most out of your {{site.data.keyword.Bluemix_notm}} experience. The updates are organized into these categories: [{{site.data.keyword.Bluemix_notm}} platform](index.html#platform_category), [{{site.data.keyword.Bluemix_local_notm}} and {{site.data.keyword.Bluemix_dedicated_notm}}](index.html#dedicatedandlocal), [Compute](index.html#compute_category), and [Services](index.html#services_category).
 {:shortdesc}
