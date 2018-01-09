@@ -72,11 +72,6 @@ New as of: 31 October 2017
 
 A Lite account is our new account type that gives you access to try select services for free with no time restrictions. This new account also includes usage tracking and efficiency features to help you better manage your resources. To learn more about what's available, see [Account types](/docs/pricing/index.html#liteaccount).
 
-### Support Center
-New as of: 30 October 2017
-
-We now have the new Support Center where you can search for information, post questions to our developer community, and manage tickets. Go to **Support > Support Center** in the {{site.data.keyword.Bluemix_notm}} console menu bar.  
-
 ### Identity and Access Management application authentication feature
 New as of: 6 October 2017
 
